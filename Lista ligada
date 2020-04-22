@@ -204,7 +204,16 @@ DATA search_pos(list *l, int pos){
 }
 
 node *serch_node(list *l, DATA data){
-
+ int data;
+    node *t;
+    if (data=0){
+        return -1;
+    } else if{
+    for (t->data=0; t->data == data, t->data++)
+    return data;
+    } else if {
+        printf("El nodo no esta en esta list\n");
+    }
 }
 
 node *ultimo(list *l){
